@@ -64,6 +64,7 @@ FishNet aims to assist in the early detection and monitoring of invasive fish sp
 ## Dataset
 The dataset used for training the model consists of frames extracted from video footage, annotated with bounding boxes for different fish species. The dataset is divided into training, validation, and test sets.
 
+
 ## Model Training
 To train the YOLO model, follow these steps:
 
