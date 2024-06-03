@@ -41,7 +41,7 @@ FishNet aims to assist in the early detection and monitoring of invasive fish sp
    pip install -r requirements.txt
    \`\`\`
 
-4. Download the pre-trained YOLO model weights and place them in the `weights` directory.
+4. Download the pre-trained YOLO model weights and place them in the `weights` directory. https://drive.google.com/drive/folders/1-SDLO-YD7oUYiTKHSqmMDQO3RcZZieSB?usp=drive_link
 
 ## Usage
 ### Running the Application
@@ -62,7 +62,7 @@ FishNet aims to assist in the early detection and monitoring of invasive fish sp
 3. The results will be saved in the `output` directory, with logs and detected species.
 
 ## Dataset
-The dataset used for training the model consists of frames extracted from video footage, annotated with bounding boxes for different fish species. The dataset is divided into training, validation, and test sets. In the link - [https://drive.google.com/your_shared_link_here.](https://drive.google.com/drive/folders/1F83MqLgranu6dbd5eyhmoXP6X5Nv86V1?usp=drive_link)
+The dataset used for training the model consists of frames extracted from video footage, annotated with bounding boxes for different fish species. The dataset is divided into training, validation, and test sets. In the link - https://drive.google.com/drive/folders/1hxzYxFCK9H7-jH8jCssNCYetGZwo7tW1?usp=drive_link
 
 
 ## Model Training
