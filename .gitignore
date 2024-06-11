@@ -1,0 +1,18 @@
+# Ignore the entire Dataset directory
+Dataset/
+weights/
+runs/
+Data/
+
+# Ignore 
+model_predictions.xlsx
+
+# Ignore all __pycache__ directories
+__pycache__/
+
+# Ignore environment and package files
+.env
+venv/
+ENV/
+env/
+.venv/

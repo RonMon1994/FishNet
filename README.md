@@ -25,10 +25,10 @@ FishNet aims to assist in the early detection and monitoring of invasive fish sp
 
 ## Installation
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourusername/FishNet.git
    cd FishNet
-   \`\`\`
+
 
 2. Create a virtual environment:
    \`\`\`bash
@@ -44,14 +44,6 @@ FishNet aims to assist in the early detection and monitoring of invasive fish sp
 4. Download the pre-trained YOLO model weights and place them in the `weights` directory. https://drive.google.com/drive/folders/1-SDLO-YD7oUYiTKHSqmMDQO3RcZZieSB?usp=drive_link
 
 ## Usage
-### Running the Application
-1. Start the application:
-   \`\`\`bash
-   python app.py
-   \`\`\`
-
-2. The app is too heavy, a demonstration was done in class
-
 ### Processing Video Data
 1. Place your video files in the `data/videos` directory.
 2. Run the video processing script:
@@ -76,6 +68,16 @@ To train the YOLO model, follow these steps:
 
 ## Real-Time Detection
 To enable real-time detection, the application processes video streams frame by frame, using the trained YOLO model to identify fish species. Alerts are generated when invasive species are detected.
+
+## Running the Inference Script
+Ensure you have the necessary libraries installed:
+pip install ultralytics openpyxl pandas
+To run the inference script, use the following command:
+python infrance_run_example.py --videos_base_dir "/path/to/your/videos"
+# Example
+
+Here is an example of how to run the script with a specific videos_base_dir:
+python infrance_run_example.py --videos_base_dir "/media/ronm/Crucial X6/chunk_4/israchz091121A/videos"
 
 ## Contributing
 Contributions are welcome! Please follow these steps to contribute:
