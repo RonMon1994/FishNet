@@ -71,12 +71,15 @@ To enable real-time detection, the application processes video streams frame by 
 
 ## Running the Inference Script
 Ensure you have the necessary libraries installed:
+\`\`\`bash
+pip install ultralytics openpyxl pandas
+\`\`\`
 
-
-# Example
-Here is an example of how to run the script with a specific videos_base_dir:
-   ``bash
-   python infrance_run_example.py --videos_base_dir "/media/ronm/Crucial X6/chunk_4/israchz091121A/videos"
+### Example
+Here is an example of how to run the script with a specific \`videos_base_dir\`:
+\`\`\`bash
+python infrance_run_example.py --videos_base_dir "/media/ronm/Crucial X6/chunk_4/israchz091121A/videos"
+\`\`\`
 
 ## Contributing
 Contributions are welcome! Please follow these steps to contribute:
