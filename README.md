@@ -81,16 +81,21 @@ Example
 Here is an example of how to run the script with a specific videos_base_dir:
 
 
+## Contributing
 
+Contributions are welcome! Please follow these steps to contribute:
 
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature/your-feature-name).
+3. Make your changes.
+4. Commit your changes (git commit -m 'Add your feature').
+5. Push to the branch (git push origin feature/your-feature-name).
+6. Create a new Pull Request.
 
+## Acknowledgements
 
-
-
-
-
-
-
+Special thanks to the School of Zoology for providing the video data.
+Thanks to the open-source community for tools and resources.
 
 
 
