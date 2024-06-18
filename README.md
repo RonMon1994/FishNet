@@ -92,8 +92,8 @@ Contributions are welcome! Please follow these steps to contribute:
 6. Create a new Pull Request.
 
 ## Acknowledgements
-Special thanks to the School of Zoology for providing the video data.
-Thanks to the open-source community for tools and resources.
+1. Special thanks to the School of Zoology for providing the video data.
+2. Thanks to the open-source community for tools and resources.
 
 
 
