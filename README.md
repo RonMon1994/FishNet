@@ -32,15 +32,21 @@ FishNet aims to assist in the early detection and monitoring of invasive fish sp
    cd FishNet
    
 2. Create a virtual environment:
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
-3. Install the required dependencies:
-pip install -r requirements.txt
+4. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
 
-4. Download the pre-trained YOLO model weights and place them in the weights directory. Download link
+6. Download the pre-trained YOLO model weights and place them in the weights directory. Download link
 
+# Usage
+## Processing Video Data
+Place your video files in the data/videos directory.
 
+Run the video processing script:
 
 
 
