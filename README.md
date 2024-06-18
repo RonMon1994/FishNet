@@ -40,7 +40,7 @@ FishNet aims to assist in the early detection and monitoring of invasive fish sp
    ```bash
    pip install -r requirements.txt
 
-6. Download the pre-trained YOLO model weights and place them in the weights directory. Download link
+6. Download the pre-trained YOLO model weights and place them in the weights directory. [Download link](https://drive.google.com/drive/folders/1-SDLO-YD7oUYiTKHSqmMDQO3RcZZieSB)
 
 ## Usage
 Processing Video Data
@@ -52,7 +52,7 @@ Processing Video Data
 
 
 ## Dataset
-The dataset used for training the model consists of frames extracted from video footage, annotated with bounding boxes for different fish species. The dataset is divided into training, validation, and test sets. Dataset link
+The dataset used for training the model consists of frames extracted from video footage, annotated with bounding boxes for different fish species. The dataset is divided into training, validation, and test sets. [Dataset link](https://drive.google.com/drive/folders/1hxzYxFCK9H7-jH8jCssNCYetGZwo7tW1)
 
 
 ## Model Training
