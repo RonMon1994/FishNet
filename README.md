@@ -2,6 +2,8 @@
 
 FishNet is a deep learning project designed to identify invasive fish species in the Mediterranean Sea using video data. This project utilizes a YOLO model trained on a custom dataset created from video footage.
 
+![Detection Demo](Images/DetectionGif.gif)
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
@@ -16,8 +18,6 @@ FishNet is a deep learning project designed to identify invasive fish species in
 
 ## Project Overview
 FishNet aims to assist in the early detection and monitoring of invasive fish species. The application processes video frames in real-time, identifies different fish species, and alerts relevant stakeholders when invasive species are detected.
-
-![Detection Demo](Images/school_of_fish.gif)
 
 ## Features
 - Real-time fish species detection
