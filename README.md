@@ -69,10 +69,10 @@ To train the YOLO model, follow these steps:
 ## Real-Time Detection
 To enable real-time detection, the application processes video streams frame by frame, using the trained YOLO model to identify fish species. Alerts are generated when invasive species are detected.
 
-Running the Inference Script
+## Running the Inference Script
 Ensure you have the necessary libraries installed:
    ```bash
-   pip install ultralytics openpyxl pandas
+    pip install ultralytics openpyxl pandas
 
 To run the inference script, use the following command:
    ```bash
@@ -80,22 +80,4 @@ To run the inference script, use the following command:
 
 # Example
 Here is an example of how to run the script with a specific videos_base_dir:
-
-
-## Contributing
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch (git checkout -b feature/your-feature-name).
-3. Make your changes.
-4. Commit your changes (git commit -m 'Add your feature').
-5. Push to the branch (git push origin feature/your-feature-name).
-6. Create a new Pull Request.
-
-## Acknowledgements
-Special thanks to the School of Zoology for providing the video data.
-Thanks to the open-source community for tools and resources.
-
-
-
 
