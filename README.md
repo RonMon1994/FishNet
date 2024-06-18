@@ -30,3 +30,24 @@ FishNet aims to assist in the early detection and monitoring of invasive fish sp
    ```bash
    git clone https://github.com/yourusername/FishNet.git
    cd FishNet
+   
+2. Create a virtual environment:
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+3. Install the required dependencies:
+pip install -r requirements.txt
+
+4. Download the pre-trained YOLO model weights and place them in the weights directory. Download link
+
+
+
+
+
+
+
+
+
+
+
+
