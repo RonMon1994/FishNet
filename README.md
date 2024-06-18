@@ -42,11 +42,49 @@ FishNet aims to assist in the early detection and monitoring of invasive fish sp
 
 6. Download the pre-trained YOLO model weights and place them in the weights directory. Download link
 
-# Usage
-## Processing Video Data
-Place your video files in the data/videos directory.
+## Usage
+Processing Video Data
+1. Place your video files in the data/videos directory.
 
-Run the video processing script:
+2. Run the video processing script:
+   ```bash
+   python main.py
+
+
+## Dataset
+The dataset used for training the model consists of frames extracted from video footage, annotated with bounding boxes for different fish species. The dataset is divided into training, validation, and test sets. Dataset link
+
+
+## Model Training
+To train the YOLO model, follow these steps:
+
+1. Prepare your dataset and ensure it is correctly formatted for YOLO.
+
+2. Modify the configuration files as needed.
+
+3. Train the model: An example run file is attached.
+
+4. Monitor the training process and adjust hyperparameters if necessary.
+
+## Real-Time Detection
+To enable real-time detection, the application processes video streams frame by frame, using the trained YOLO model to identify fish species. Alerts are generated when invasive species are detected.
+
+Running the Inference Script
+Ensure you have the necessary libraries installed:
+   ```bash
+   pip install ultralytics openpyxl pandas
+To run the inference script, use the following command:
+   ```bash
+   python infrance_run_example.py --videos_base_dir "/path/to/your/videos"
+
+Example
+Here is an example of how to run the script with a specific videos_base_dir:
+
+
+
+
+
+
 
 
 
